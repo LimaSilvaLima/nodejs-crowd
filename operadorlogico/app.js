@@ -7,8 +7,8 @@ console.log("\nOperadores Lógicos em JavaScript\n");
 console.log("\nAlem de suas Verificações, precisamos saber se vc esta na lista de horário.\n");
 
 rl.question('Qual o ano do seu nascimento?     ', ano  => {
-    if (ano > 2006) {
-        console.log("\nVoce não tem 18 anos ainda.\n");
+     if (ano > 2006) {
+          console.log("\nVoce não tem 18 anos ainda.\n");
             return
         } else {
             rl.question('Voce tem habilitação? (Sim/Nao)    ', temHabilitacao => {
