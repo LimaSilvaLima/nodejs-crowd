@@ -2,6 +2,7 @@
 node_modules/
 
 # Arquivos de ambiente (segurança)
+package-lock.json
 .env
 .env.local
 .env.development.local
